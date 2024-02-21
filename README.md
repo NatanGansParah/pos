@@ -33,6 +33,7 @@ Aplikasi POS atau point of sales adalah aplikasi yang digunakan untuk mengelola 
 ```bash
 git clone https://github.com/sandinur157/tuturial-membuat-aplikasi-point-of-sales.git
 ```
+### Install Node terlebih dahulu untuk menjalankan package jetstream
 
 ### Setup Aplikasi
 Jalankan perintah 
@@ -70,11 +71,11 @@ php artisan key:generate
 ```
 Migrate database
 ```bash
-php artisan migrate
+php artisan migrate --seed
 ```
-Seeder table User, Pengaturan
+Storage link
 ```bash
-php artisan db:seed
+php artisan storage:link
 ```
 Menjalankan aplikasi
 ```bash
