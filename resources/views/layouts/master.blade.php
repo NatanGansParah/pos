@@ -44,17 +44,18 @@
         @includeIf('layouts.sidebar')
 
         <!-- Content Wrapper. Contains page content -->
-        <div class="content-wrapper" style="background-image: url('{{ asset('img/bg1.jpeg') }}'); background-size: cover; background-position: center;">
+        <div class="content-wrapper" > 
+            {{-- style="background-image: url('{{ asset('img/bg1.jpeg') }}'); background-size: cover; background-position: center;" --}}
             <!-- Content Header (Page header) -->
             <section class="content-header">
                 <h1>
                     @yield('title')
                 </h1>
-                <ol class="breadcrumb">
+                {{-- <ol class="breadcrumb">
                     @section('breadcrumb')
                         <li><a href="{{ url('/') }}"><i class="fa fa-dashboard"></i> Home</a></li>
                     @show
-                </ol>
+                </ol> --}}
             </section>
 
             <!-- Main content -->

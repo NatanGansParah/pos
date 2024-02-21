@@ -4,10 +4,10 @@
 <div class="login-box">
 
     <!-- /.login-logo -->
-    <div class="login-box-body">
+    {{-- <div class="login-box-body">
         <div class="login-logo">
             <a href="{{ url('/') }}">
-                {{-- <img src="{{ url($setting->path_logo) }}" alt="logo.png" width="150"> --}}
+                <img src="{{ url($setting->path_logo) }}" alt="logo.png" width="150">
             </a>
         </div>
 
@@ -51,7 +51,7 @@
                 <!-- /.col -->
             </div>
         </form>
-    </div>
+    </div> --}}
     <!-- /.login-box-body -->
     
 </div>

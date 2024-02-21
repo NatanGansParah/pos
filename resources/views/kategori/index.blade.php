@@ -9,7 +9,7 @@
     <li class="active">Daftar Kategori</li>
 @endsection
 
-@section('content')
+{{-- @section('content')
 <div class="row">
     <div class="col-lg-12">
         <div class="box">
@@ -112,4 +112,4 @@
         }
     }
 </script>
-@endpush
+@endpush --}}

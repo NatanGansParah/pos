@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title')
+{{-- @section('title')
     Dashboard
 @endsection
 
@@ -9,7 +9,7 @@
     <li class="active">Dashboard</li>
 @endsection
 
-{{-- @section('content')
+@section('content')
 <!-- Small boxes (Stat box) -->
 <div class="row" >
     <div class="col-lg-3 col-xs-6">
