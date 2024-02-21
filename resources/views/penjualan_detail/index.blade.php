@@ -4,7 +4,7 @@
     Transaksi Penjualan
 @endsection
 
-@push('css')
+{{-- @push('css')
 <style>
     .tampil-bayar {
         font-size: 5em;
@@ -316,4 +316,4 @@
             })
     }
 </script>
-@endpush
+@endpush --}}

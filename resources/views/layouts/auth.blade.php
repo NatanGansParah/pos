@@ -31,8 +31,8 @@
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,600,700,300italic,400italic,600italic">
 </head>
-<body class="hold-transition login-page" style="background-image: url('{{ asset('img/bg1.jpeg') }}'); background-size: cover; background-position: center;">
-    
+<body class="hold-transition login-page" >
+  {{-- style="background-image: url('{{ asset('img/bg1.jpeg') }}'); background-size: cover; background-position: center;" --}}
 
     @yield('login')
 
@@ -56,7 +56,7 @@
     </script>
 
     <style>
-button {
+/* button {
     --primary-color: #06274A;
     --secondary-color: #fff;
     --hover-color: #111;
@@ -117,6 +117,6 @@ button:hover .arrow {
 button:hover .arrow:before {
   right: 0;
 }
-    </style>
+</style> */
 </body>
 </html>

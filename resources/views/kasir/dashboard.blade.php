@@ -1,6 +1,6 @@
 @extends('layouts.master')
 
-@section('title')
+{{-- @section('title')
     Dashboard
 @endsection
 
@@ -25,4 +25,4 @@
     </div>
 </div>
 <!-- /.row (main row) -->
-@endsection
+@endsection --}}
